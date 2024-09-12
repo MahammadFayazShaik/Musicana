@@ -371,7 +371,7 @@ function App() {
         <p className='musicPlayer'>Musicana</p>
         <p className='music-Head-Name'>{currentMusicDetails.songName}</p>
         <p className='music-Artist-Name'>{currentMusicDetails.songArtist}</p>
-        <img src={imgArray[imageIndex]} className={avatarClass[avatarClassIndex]} onClick={handleChangeImage} alt="song Avatar" id='songAvatar'/>
+        <img src={imgArray[imageIndex]} onClick={handleChangeImage} alt="song Avatar" id='songAvatar'/>
         <div className="musicTimerDiv">
           <p className='musicCurrentTime'>{musicCurrentTime}</p>
           <p className='musicTotalLenght'>{musicTotalLength}</p>
